@@ -8,7 +8,78 @@
 </head>
 <body>
   
+  <nav>
+    <div class="logo">
+      <img src="https://randomuser.me/api/portraits/men/44.jpg" alt="">
+    </div>
+    <ul>
+      <li><a href="">Home</a></li>
+      <li><a href="">Portfolio</a></li>
+      <li><a href="">Blog</a></li>
+      <li><a href="">Contact me</a></li>
+    </ul>
+  </nav>
+  <header>
+    <button id="toggle" class="toggle">
+      <i class="fa fa-bars fa-xl"></i>
+    </button>
+    <h1>My Landing Page</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde praesentium porro quas, perspiciatis expedita eum ea! Eius odio eos molestias.</p>
+    <button class="cta-btn" id="open">Sign Up</button>
+  </header>
 
+  <div class="container">
+    <h2>What is this landing page about?</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias doloremque ipsa accusamus, doloribus ratione sint beatae facilis unde quasi consequuntur officiis mollitia expedita cumque excepturi laudantium aliquam facere est necessitatibus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur hic iusto nobis dolore minus explicabo a cupiditate ullam necessitatibus at.</p>
+
+    <h2>Tell Me More</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quae nihil iste ipsa quidem aliquam voluptas quo repudiandae, inventore voluptate ipsum sunt? Excepturi nulla cupiditate molestiae delectus et possimus dicta dolor corporis qui. Odio assumenda earum sunt enim in aliquid!</p>
+
+    <h2>Benefits</h2>
+    <ul>
+      <li>Lifetime access</li>
+      <li>30 Day Money Back</li>
+      <li>Tailored Customer Support</li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quia aspernatur sunt in vitae laboriosam praesentium quaerat consequuntur, molestiae illo eveniet impedit quidem optio tempore harum tenetur saepe! Ad facere officia ratione consequuntur assumenda eaque illum totam voluptas perspiciatis laboriosam placeat officiis in labore minus molestiae, consequatur nemo, dolores nostrum, repellat hic illo cupiditate sit tempora. Nam aliquid amet, iure temporibus ipsum sunt quibusdam debitis magnam, harum dolore eveniet animi.</p>
+  </div>
+
+  <!-- modal -->
+  <div class="modal-container" id="modal">
+    <div class="modal">
+      <button class="close-btn" id="close">
+        <i class="fa fa-times"></i>
+      </button>
+      <div class="modal-header">
+        <h3>Sign Up</h3>
+        <div class="model-content">
+          <p>Register with us to get offers, support and mode</p>
+          <form class="modal-form">
+            <div>
+              <label for="name">name</label>
+              <input type="text" id="name" placeholder="Enter name">
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="Enter email">
+            </div>
+            <div>
+              <label for="password">password</label>
+              <input type="password" id="password" placeholder="Enter password">
+            </div>
+            <div>
+              <label for="password2">confirm password</label>
+              <input type="password" id="password2" placeholder="re-password">
+            </div>
+            <input type="submit" value="submit" class="submit-btn">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://kit.fontawesome.com/18e09a15a7.js" crossorigin="anonymous"></script>
   <script src="./script.js"></script>
 </body>
 </html>
